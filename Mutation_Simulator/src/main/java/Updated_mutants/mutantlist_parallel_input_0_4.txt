@@ -1,0 +1,50 @@
+ID:26d9282e-ab0b-4834-acd3-9a2b698a6c8b (survived)
+Line:11
+Original:+
+Type:-
+-----------------------
+ID:c8048974-5228-41e1-a48f-d4ae816a76c2 (survived)
+Line:11
+Original:+
+Type:*
+-----------------------
+ID:c44dd971-5df6-421c-9306-8eae466e5eaf(killed by [0,4])
+Line:11
+Original:+
+Type:/
+-----------------------
+ID:e3bcedff-9461-4b55-b079-243e9e12ffd4 (survived)
+Line:12
+Original:+
+Type:-
+-----------------------
+ID:62f173e1-bf70-4931-8b19-53c6bca4a366 (survived)
+Line:12
+Original:+
+Type:*
+-----------------------
+ID:ce14f238-9792-4180-a157-8f601081163a (survived)
+Line:12
+Original:+
+Type:/
+-----------------------
+ID:58a55dad-e7e0-49fb-bc75-9f3c961b9585(killed by [0,4])
+Line:13
+Original:/
+Type:+
+-----------------------
+ID:12cf4aad-26d3-4f66-8f59-0b4b1b0d77b3 (survived)
+Line:13
+Original:/
+Type:-
+-----------------------
+ID:d2fc505c-d073-4499-8f09-2e9fb5b87af8(killed by [0,4])
+Line:13
+Original:/
+Type:*
+-----------------------
+Number of mutants of each type:
++:1
+-:3
+*:3
+/:2
