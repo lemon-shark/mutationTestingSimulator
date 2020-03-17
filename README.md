@@ -20,12 +20,15 @@ arithmetic	operation	encountered	in	processed	software.
 After	the	traversal	of	the	software	under	test	(SUT)	is	completed	the	fault	list	file	should	store	
 the	complete	information	about	all	sites	of	potential	mutant	injection	into	 the	SUT	as	well	as	
 listing	of	types	of	mutants	to	be	injected	in	each	location.	
+
 2. Mutant	injection
 In	this	part	of	the	project	you	perform	a	single	mutant	injection	into	your	SUT.	 Each	mutant	from	
 mutant	fault	list	generated	in	part	1	must	be	considered
+
 3. Killing mutants (fault simulation)
 Prepare a simulation file, which you are going to use for mutant killings. You should design a simulation file appropriately to SUT. For example, you could consider boundary values as a part of simulation space. You use your simulation file to kill mutants from your mutant list. After simulation of a mutant is completed you mark in the mutant list whether a given mutant was killed or not, and if killed then by what vector.
 Note, when you are simulating SUT with a mutant, you must compare the simulation results to the analogous simulations of mutant-free (original) software.
 After all mutants are considered, you generate the mutant coverage of your SUT. Mutant coverage is the ratio of all killed mutants to all mutants in mutant list.
+
 4. Parallel simulations
 Simulation of your mutants was performed one at a time. Devise a method to speed up the procedure by parallel mutant simulation. Consider simulating in parallel 3 mutants.
